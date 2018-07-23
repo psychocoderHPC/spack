@@ -11,5 +11,7 @@
 #   ~/.spack/repos.yaml
 # -------------------------------------------------------------------------
 repos:
-  - $spack/var/spack/repos/builtin
+  - $spack/../../spack/repos/spec
   - $spack/../../benchspec/MPIACCEL/699.helloworld_s/spack
+  - $spack/../../benchspec/MPIACCEL/620.dashmg_s/spack
+  - $spack/var/spack/repos/builtin
