@@ -12,3 +12,4 @@
 # -------------------------------------------------------------------------
 repos:
   - $spack/var/spack/repos/builtin
+  - $spack/../../benchspec/MPIACCEL/699.helloworld_s/spack
