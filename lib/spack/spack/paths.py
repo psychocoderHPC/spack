@@ -47,7 +47,7 @@ packages_path      = os.path.join(repos_path, "builtin")
 mock_packages_path = os.path.join(repos_path, "builtin.mock")
 
 #: User configuration location
-user_config_path = os.environ.get('SPACK_USER_CONFIG_PATH') if os.environ.get('SPACK_USER_CONFIG_PATH') else os.path.expanduser('~/.spack')
+user_config_path = os.environ.get('SPACK_USER_CONFIG_PATH') if os.environ.get('SPACK_USER_CONFIG_PATH') else os.path.expanduser('~/.spec_spack')
 
 
 opt_path        = os.path.join(prefix, "opt")
